@@ -1,0 +1,17 @@
+[package]
+name = "homepage-rs"
+version = "0.1.0"
+authors = ["zcd <schiu.zcd@gmail.com>"]
+
+[dependencies]
+pulldown-cmark = "*"
+rocket = "*"
+rocket_codegen = "*"
+serde = "*"
+serde_derive = "*"
+toml = "*"
+
+[dependencies.rocket_contrib]
+version = "*"
+default-features = false
+features = ["handlebars_templates"]

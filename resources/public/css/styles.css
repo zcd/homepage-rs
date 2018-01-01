@@ -1,0 +1,42 @@
+.nav-bar {
+    list-style: none;
+    padding: 0;
+}
+
+ul > li.nav-item {
+    display: inline-block;
+    padding-left: 2em;
+}
+
+ul > li.nav-item:first-of-type {
+    padding-left: 0;
+}
+
+.nav-item > a {
+    color: #666;
+    font-size: 14pt;
+    text-decoration: none;
+}
+
+#main-item {
+    color: indigo;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.site {
+    max-width: 60em;
+    width: 100%;
+    margin: 25px auto;
+    padding: 1em;
+
+    font-family: helvetica;
+    font-size: 10pt;
+}
+
+footer {
+    color: #666;
+    border-top: 4px solid #eee;
+    margin-top: 2em;
+
+}

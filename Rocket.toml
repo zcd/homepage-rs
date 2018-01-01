@@ -1,0 +1,11 @@
+[global]
+address = "localhost"
+resource_dir = "resources/public/"
+blog_dir = "blogdata/"
+template_dir = "resources/templates/"
+
+[development]
+port = 8000
+
+[production]
+port = 8080

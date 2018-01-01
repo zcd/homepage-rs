@@ -1,0 +1,8 @@
+{{#*inline "body"}}
+<ul>
+{{#each items}}
+<li><a href="/blog/{{this.key}}">{{this.title}}</a></li>
+{{/each}}
+</ul>
+{{/inline}}
+{{~> (parent)}}
