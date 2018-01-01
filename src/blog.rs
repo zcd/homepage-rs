@@ -105,6 +105,7 @@ fn strip_extension(path: &Path) -> &str {
 ///
 /// TODO(zcd): better than O(N) lookup if I ever write that much stuff
 /// TODO(zcd): figure out how to surface errors as Rocket NotFound
+/// TODO(zcd): do some file caching
 
 #[get("/<entry_key>")]
 fn entry(entry_key: String, blog_index: State<BlogIndex>) -> Result<Template, io::Error> {
